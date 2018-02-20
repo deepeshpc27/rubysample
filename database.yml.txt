@@ -1,0 +1,24 @@
+default: &default
+   adapter: postgresql
+   encoding: unicode
+   host: localhost
+   port: 5432
+   username: postgres
+   password: deepupc
+   pool: 5
+
+
+development:
+   adapter: postgresql
+   encoding: unicode
+   database: dbname
+   username: postgres
+   password: deepupc
+
+test:
+   adapter: postgresql
+   encoding: unicode
+   database: dbname
+   username: postgres
+   password: deepupc
+
